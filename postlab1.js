@@ -1,7 +1,7 @@
 import express from "express";
 
 var app = express();
-var port = 3001;
+var port = 3000;
 
 // needed to read form data from req.body
 app.use(express.urlencoded({ extended: true }));

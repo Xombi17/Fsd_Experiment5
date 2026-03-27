@@ -1,7 +1,7 @@
 import express from "express";
 
 var app = express();
-var port = 3002;
+var port = 3000;
 
 // tell express to use ejs
 app.set("view engine", "ejs");

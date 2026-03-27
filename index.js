@@ -19,12 +19,12 @@ app.get("/", (req, res) => {
 
 // GET /about
 app.get("/about", (req, res) => {
-    res.send("<h1>About</h1> <p>Name: Varad</p> <p>Roll No: 23</p> <p>Course: Computer Engineering</p>");
+    res.send("<h1>About</h1> <p>Name: Varad</p> <p>Roll No: 10603</p> <p>Course: Computer Engineering</p>");
 });
 
 // GET /contact
 app.get("/contact", (req, res) => {
-    res.send("<h1>Contact</h1> <p>Email: varad@example.com</p>");
+    res.send("<h1>Contact</h1> <p>Email: varadaj47@gmail.com</p>");
 });
 
 // POST /register 
